@@ -15,7 +15,7 @@ html {
 body {
 	overflow-x: hidden;
 	overflow-y: hidden;
-	font-family: 'niveau-grotesk', sans-serif;
+	font-family: 'niveau-grotesk', normal;
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 1.9rem;
