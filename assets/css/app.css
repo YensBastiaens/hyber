@@ -53,6 +53,7 @@ h4 {
 .label {
 	font-size: 1.4rem;
 	line-height: 1.6rem;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -66,6 +67,5 @@ h4 {
 .container {
 	max-width: 1300px;
 	margin: auto;
-	padding-left: 12rem;
-	padding-right: 12rem;
+	
 }

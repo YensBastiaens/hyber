@@ -12,7 +12,8 @@ const props = defineProps({
       relative
        text-blue
       cursor-pointer
-      top-[10rem]
+      top-[26rem]
+      left-[2.5%]
       flex
       justify-center
     " :href="url">
@@ -32,9 +33,10 @@ const props = defineProps({
     height: 290px;
     width: 3px;
     position: absolute;
-    bottom: -10rem;
+    bottom: -11rem;
 }
-.label{
+
+.label {
     transform: rotate(-90deg);
 }
 </style>

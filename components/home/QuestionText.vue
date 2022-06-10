@@ -5,7 +5,8 @@
 <template>
     <section class="backgroundGradient ">
         <div class="relative">
-        <div class="container pt-[29rem] pb-[23rem]">
+        <div class="container py-[29rem]">
+            <div class="flex justify-center">
             <div class="max-w-[101rem]">
                 <h2 class="text-white text-center">Wacht? Hoe werkt dat dan?</h2>
                 <div class="flex gap-[1rem] justify-end items-center  ">
@@ -23,7 +24,10 @@
                     </p>
                 </div>
                 <div class="logo"></div>
-                <BtnArrowScroll class="" :text="'Wat betekent dat voor mij?'" />
+                <div class="">
+                    <BtnArrowScroll :text="'Wat betekent dat voor mij?'" />
+                </div>
+            </div>
             </div>
         </div>
         </div>
@@ -35,7 +39,7 @@
 <style  scoped>
 .backgroundGradient {
     background: linear-gradient(314.34deg, #06131B 61.57%, #1E3D39 100%);
-    height: 90rem;
+    padding-bottom: 35rem;
 }
 
 .logo {
