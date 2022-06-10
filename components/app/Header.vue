@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div class="flex justify-center relative">
-        <nav class="container absolute flex flex-row justify-between items-center pt-[3.5rem] z-[1]">
+    <div class="flex justify-center relative ">
+        <nav class="container absolute flex flex-row justify-between items-center pt-[3.5rem] z-[2]">
             <img class="flex items-center" src="~/assets/images/logo/hyber.svg" alt="logo">
             <div class="flex gap-[2.5rem] font-bold text-white">
                 <a href="#">Werkgever HQ</a>
