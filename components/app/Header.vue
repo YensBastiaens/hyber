@@ -22,10 +22,10 @@
 <style scoped>
 .navGradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0.6) 0%, rgba(6, 19, 26, 0) 100%);
-    position: absolute;
     width: 100%;
     height: 35rem;
     z-index: 0;
+    position: fixed;
 }
 
 

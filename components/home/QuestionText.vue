@@ -13,7 +13,6 @@
                     <p class="title text-white text-right">(Het is heel simpel eigenlijk)</p>
                     <img src="~/assets/images/logo/smallLogoIcon.png" alt="logo">
                 </div>
-
                 <div class="flex justify-center">
                     <p class="text-white text-center max-w-[66rem] mt-[6rem]">Bye bye papierwerk, hallo digitale
                         vrijheid! Met Hyber

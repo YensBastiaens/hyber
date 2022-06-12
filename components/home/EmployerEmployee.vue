@@ -25,9 +25,7 @@
                     <BtnBlackButton :href="'#'" :text="'Hyber voor werknemers'" />
                 </div>
             </div>
-
         </div>
-
     </section>
 </template>
 

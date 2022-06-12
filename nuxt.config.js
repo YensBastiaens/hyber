@@ -47,7 +47,7 @@ export default defineNuxtConfig({
                 "postcss-gap": {},
                 "autoprefixer": {}
             }
-        }
+        },
     },
 
     vite: {

@@ -58,7 +58,14 @@
                         alt="leaf">
                 </div>
             </div>
-            
+            <div class="flex flex-row pt-[25.6rem] justify-center gap-[12rem]">
+                <img src="~/assets/images/client-logos/ebay.svg" alt="ebay">
+                <img src="~/assets/images/client-logos/cnn.svg" alt="cnn">
+                <img src="~/assets/images/client-logos/google.svg" alt="google">
+                <img src="~/assets/images/client-logos/cisco.svg" alt="cisco">
+                <img src="~/assets/images/client-logos/airbnb.svg" alt="airbnb">
+                <img src="~/assets/images/client-logos/uber.svg" alt="uber">
+            </div>
         </div>
     </section>
 </template>
