@@ -16,6 +16,7 @@ const props = defineProps({
       left-[2.5%]
       flex
       justify-center
+      z-50
     " :href="url">
         <div class="dottedLine"></div>
         <div class="flex gap-[2.7rem] ">

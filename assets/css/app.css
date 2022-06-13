@@ -67,5 +67,6 @@ h4 {
 .container {
 	max-width: 1300px;
 	margin: auto;
-	
+	padding-left: 2rem;
+	padding-right: 2rem;
 }

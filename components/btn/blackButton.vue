@@ -1,5 +1,16 @@
 <script setup>
 
+const props = defineProps({
+    text: {
+        type: String,
+        default: 'text'
+    },
+    url: {
+        type: String,
+        default: '/'
+    }
+})
+
 </script>
 
 <template>
@@ -12,8 +23,9 @@
     px-[40px]
     rounded-[1rem]
     top-[6rem]
+    z-50
     " :href="url">
-        {{ text }}
+        {{ props.text }}
     </a>
 </template>
 

@@ -22,7 +22,7 @@
                     <p class="max-w-[40.9rem] pt-[3.5rem]">De ideale work/life balance is dichterbij dan je denkt.
                         Dankzij Hyber plan jij je werkdag in zoals jij het wil. Je collega’s? Die zijn slechts een klik
                         verwijderd. Never alone, always together. </p>
-                    <BtnBlackButton :href="'#'" :text="'Hyber voor werknemers'" />
+                    <BtnBlackButton :href="'#'" :text="'Hyber voor werknemers'"/>
                 </div>
             </div>
         </div>
