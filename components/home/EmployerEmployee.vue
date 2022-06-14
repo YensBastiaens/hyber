@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="relative">
+    <section class="relative" id="answer">
         <img class="absolute right-[0] top-[-15rem]" src="~/assets/images/elements/parrot.png" alt="papegaai">
         <div class="container relative py-[18rem] pb-[25rem]">
             <div class="flex justify-between ">
@@ -49,5 +49,9 @@ section {
     left: -5%;
     right: 0;
     text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 </style>

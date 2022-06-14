@@ -23,9 +23,8 @@
                     </p>
                 </div>
                 <div class="logo"></div>
-                <div class="">
-                    <BtnArrowScroll :text="'Wat betekent dat voor mij?'" />
-                </div>
+                    <BtnArrowScroll :url="'#answer'"  :text="'Wat betekent dat voor mij?'" />
+                    
             </div>
             </div>
         </div>
@@ -50,4 +49,9 @@
     left: -1rem;
     background-repeat: no-repeat;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 </style>

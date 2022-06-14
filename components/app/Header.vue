@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="flex justify-center fixed w-full z-[40] ">
+    <section class="navigation flex justify-center fixed w-full z-[40] ">
         <nav class="container flex flex-row justify-between items-center pt-[3.5rem] ">
             <img class="flex items-center" src="~/assets/images/logo/logoWhite.svg" alt="logo">
             <div class="flex gap-[2.5rem] font-bold text-white">

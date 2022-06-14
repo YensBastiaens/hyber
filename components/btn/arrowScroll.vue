@@ -8,6 +8,7 @@ const props = defineProps({
 <template>
 
     <a class="
+    scroll-down
     label
       relative
        text-blue
@@ -21,13 +22,16 @@ const props = defineProps({
         <div class="dottedLine"></div>
         <div class="flex gap-[2.7rem] ">
             <SvgArrow class=" button w-[18px] h-[12px] fill-current text-blue" />
-            {{ text }}
+            {{ props.text }}
         </div>
 
     </a>
 </template>
 
 <style scoped>
+html {
+    scroll-behavior: smooth;
+}
 .dottedLine {
     background: url(~/assets/images/elements/dottedLine.png);
     transform: rotate(90deg);
