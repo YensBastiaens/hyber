@@ -1,11 +1,14 @@
 <script setup>
-
+function scroll() {
+    document.getElementById('answer')?.scrollIntoView({ behavior: 'smooth'})
+ }
 </script>
 
 <template>
     <section class="backgroundGradient ">
         <div class="relative">
         <div class="container py-[29rem]">
+            
             <div class="flex justify-center">
             <div class="max-w-[101rem]">
                 <h2 class="text-white text-center">Wacht? Hoe werkt dat dan?</h2>
@@ -23,10 +26,11 @@
                     </p>
                 </div>
                 <div class="logo"></div>
-                    <BtnArrowScroll :url="'#answer'"  :text="'Wat betekent dat voor mij?'" />
+                    <BtnArrowScroll   :text="'Wat betekent dat voor mij?'" @click="scroll" />
                     
             </div>
             </div>
+           
         </div>
         </div>
     </section>
@@ -50,8 +54,5 @@
     background-repeat: no-repeat;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 </style>

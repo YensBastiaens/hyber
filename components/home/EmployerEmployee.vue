@@ -6,6 +6,7 @@
     <section class="relative" id="answer">
         <img class="absolute right-[0] top-[-15rem]" src="~/assets/images/elements/parrot.png" alt="papegaai">
         <div class="container relative py-[18rem] pb-[25rem]">
+             
             <div class="flex justify-between ">
                 <div class="">
                     <h3>Ik ben<br>een werkgever</h3>
@@ -30,8 +31,8 @@
 </template>
 
 
-
 <style  scoped>
+
 section {
     background: linear-gradient(90deg, #88FFF0 50%, #A9F58D 50%);
     height: 100%;
@@ -51,7 +52,5 @@ section {
     text-align: center;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 </style>

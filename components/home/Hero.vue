@@ -9,9 +9,6 @@ const currentSection = ref('')
 
 onMounted(() => {
 
-    
-
-
     gsap.registerPlugin(ScrollTrigger);
 
     let sections = gsap.utils.toArray(".panel");
@@ -22,13 +19,14 @@ onMounted(() => {
         scrollTrigger: {
             trigger: ".container1",
             pin: true,
-            scrub: 1,
-            snap: 1 / (sections.length - 1),
+            scrub: 0.5,
+            snap: 1 / (sections.length -1),
+            duration: 1,
             // base vertical scrolling on how wide the container is so it feels more natural.
-            end: "+=4000",
+            end: "+=1000",
         }
     });
-    const observer = new IntersectionObserverEntry((entries) => {
+    const observer = new IntersectionObserverEntry((entry) => {
         if (entry.intersectionRatio > 0) {
             currentSection.value = entry.target.getAttribute('id')
         }
@@ -42,7 +40,6 @@ onMounted(() => {
         observer.observe(section);
     });
 })
-
 </script>
 
 <template>
@@ -99,6 +96,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+html {
+	scroll-behavior: inherit !important ;
+}
 .navGradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0.6) 0%, rgba(6, 19, 26, 0) 100%);
     width: 100%;

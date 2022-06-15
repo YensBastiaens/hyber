@@ -5,6 +5,7 @@
 <template>
     <section class="backgroundGradient">
         <div class="container py-[30rem]">
+            
             <h2 class="text-white text-center mb-[12rem]">En wat houdt dat precies in?</h2>
             <div class="flex justify-center">
                 <div class="grid grid-cols-2 relative gap-[2.5rem]">
@@ -67,6 +68,7 @@
                 <img src="~/assets/images/client-logos/uber.svg" alt="uber">
             </div>
         </div>
+        <div class="trigger1">&#8203</div>
     </section>
 </template>
 

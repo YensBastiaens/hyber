@@ -23,7 +23,7 @@ const props = defineProps({
     px-[40px]
     rounded-[1rem]
     top-[6rem]
-    z-50
+    z-10
     " :href="url">
         {{ props.text }}
     </a>
