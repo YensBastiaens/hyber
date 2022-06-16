@@ -19,9 +19,13 @@ onMounted(() => {
         scrollTrigger: {
             trigger: ".container1",
             pin: true,
-            scrub: 0.5,
-            snap: 1 / (sections.length -1),
-            duration: 1,
+            scrub: 1,
+            // snap: 1 / (sections.length -1),
+            snap: {
+			snapTo: 1 / (sections.length - 1),
+			inertia: false,
+			duration: {min: 0.1, max: 0.5}
+		},
             // base vertical scrolling on how wide the container is so it feels more natural.
             end: "+=1000",
         }

@@ -19,20 +19,6 @@ onMounted(() => {
             }
         }
     )
-
-    // gsap.to('.navigation',
-    //     {
-    //         background: 'linear-gradient(360deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)',
-    //         paddingBottom: '2rem',
-    //         scrollTrigger: {
-    //             trigger: '.trigger1',
-    //             start: 'top 80%',
-    //             // end: 'bottom 35%',
-    //             // markers: true,
-    //         }
-    //     })
-
-
 });
 </script>
 
