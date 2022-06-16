@@ -15,7 +15,7 @@ onMounted(() => {
             paddingBottom: '2rem',
             scrollTrigger: {
                 trigger: '.trigger1',
-                start: 'top 80%',
+                start: 'top -8%',
             }
         }
     )

@@ -4,6 +4,7 @@
 
 <template>
     <section class="relative" id="answer">
+        
         <img class="absolute right-[0] top-[-15rem]" src="~/assets/images/elements/parrot.png" alt="papegaai">
         <div class="container relative py-[18rem] pb-[25rem]">
              

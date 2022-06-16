@@ -68,7 +68,7 @@
                 <img src="~/assets/images/client-logos/uber.svg" alt="uber">
             </div>
         </div>
-        <div class="trigger1">&#8203</div>
+        
     </section>
 </template>
 

@@ -6,10 +6,11 @@ function scroll() {
 
 <template>
     <section class="backgroundGradient ">
+        
         <div class="relative">
         <div class="container py-[29rem]">
-            
             <div class="flex justify-center">
+                <div class="trigger1">&#8203</div>
             <div class="max-w-[101rem]">
                 <h2 class="text-white text-center">Wacht? Hoe werkt dat dan?</h2>
                 <div class="flex gap-[1rem] justify-end items-center  ">
@@ -30,9 +31,10 @@ function scroll() {
                     
             </div>
             </div>
-           
+
         </div>
         </div>
+        
     </section>
 </template>
 
