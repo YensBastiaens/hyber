@@ -16,7 +16,7 @@ const props = defineProps({
 <template>
     <a class="
     relative
-    text-white
+    text-black
     font-bold
     bg-blue
     py-[15px]

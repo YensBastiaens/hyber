@@ -1,7 +1,7 @@
 <script setup>
 function scroll() {
-    document.getElementById('answer')?.scrollIntoView({ behavior: 'smooth'})
- }
+    document.getElementById('answer')?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -50,9 +50,22 @@ function scroll() {
                             vingerklik verwijderd. Zelf je agenda kunnen bepalen doet wonderen voor de productiviteit.
                             Suspendisse mattis</p>
                     </div>
-                    
+
                 </div>
-                
+
+            </div>
+            <div class="flex justify-center gap-[2.5rem] mt-[1rem] mb-[20rem]">
+                <div></div>
+                <div>
+                    <BtnBlueButton :text="'Demo aanvragen'" />
+                </div>
+                <div>
+                    <BtnBlueButton class="current-fill bg-green" :text="'Naar de productiehal'" />
+                </div>
+
+            </div>
+            <div class="flex justify-center gap-[2.5rem]">
+
             </div>
             <BtnArrowScroll2 :text="'ontdek meer coole features'" @click="scroll" />
         </div>
