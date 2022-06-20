@@ -47,13 +47,12 @@ onMounted(() => {
 
 <template>
     <section>
-        <div class="container1 z-[30]">
 
-            <div class="tafelman absolute justify-center z-[61] ">
-                <img class="w-[70rem] relative top-[23vh]" src="~/assets/images/elements/table.png"
-                    alt="man aan tafel">
+        <div class="container1 z-[30]">
+            <div class="absolute z-[100] w-[100vw] h-[100vh]">
+                <img class="w-[70rem] relative top-[23vh]" src="~/assets/images/elements/table.png" alt="man aan tafel">
             </div>
-            
+
             <section class="hero panel z-[60]">
                 <div class="blurBackground"></div>
                 <div class="navGradientTop"></div>
@@ -101,6 +100,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.tafelman {
+    transform: translateX(-50%);
+}
 
 .navGradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0.6) 0%, rgba(6, 19, 26, 0) 100%);

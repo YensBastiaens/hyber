@@ -7,6 +7,7 @@ function scroll() {
 <template>
     <section class="backgroundGradient relative">
         <div class="gradientTop"></div>
+        
         <div class="container pb-[30rem]">
             <div class="flex justify-center">
                 <div class="grid grid-cols-2 relative gap-[2.5rem]">
@@ -21,7 +22,8 @@ function scroll() {
                             had gekozen bij pizza night.</p>
                     </div>
                     <div
-                        class="background flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
+                        class="background relative flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
+                        <div class="fish1"></div>
                         <div class="flex gap-[1.5rem] items-center">
                             <img class="h-[1.8rem]" src="~/assets/images/logo/smallLogoIcon.png" alt="logo">
                             <div class="title text-white">Work/life war</div>
@@ -54,18 +56,16 @@ function scroll() {
                 </div>
 
             </div>
-            <div class="flex justify-center gap-[2.5rem] mt-[1rem] mb-[20rem]">
-                <div></div>
-                <div>
+            <div class="flex gap-[2.5rem] mt-[1rem] mb-[20rem]">
+                
+                <div class="w-[50%] flex justify-end">
                     <BtnBlueButton :text="'Demo aanvragen'" />
                 </div>
-                <div>
+                <div class="w-[50%] flex justify-start">
                     <BtnBlueButton class="current-fill bg-green" :text="'Naar de productiehal'" />
                 </div>
-
             </div>
             <div class="flex justify-center gap-[2.5rem]">
-
             </div>
             <BtnArrowScroll2 :text="'ontdek meer coole features'" @click="scroll" />
         </div>
@@ -76,6 +76,16 @@ function scroll() {
 
 
 <style scoped>
+.fish1{
+    background: url(~/assets/images/elements/fish3.png);
+    width: 23.5rem;
+    height: 23.5rem;
+    position: absolute;
+    top: -15rem;
+    right: -8rem;
+    z-index: 2;
+    
+}
 .gradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0) 0%, #06131A 51.3%, rgba(6, 19, 27, 0) 100%);
     transform: matrix(-1, 0, 0, 1, 0, 0);

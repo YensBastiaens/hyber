@@ -25,20 +25,17 @@ const timeAntarctica = date1.toLocaleTimeString('nl-BE', { timeZone: 'Antarctica
                         </div>
                         <div class="hoverTime flex flex-col items-center p-[66px_55px]">
                             <div class="label">Antartica</div>
-                            
                             <h4 >{{ timeAntarctica }} </h4>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
         </div>
     </section>
 </template>
 
 <style  scoped>
+
 .hoverTime:hover {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.4);
