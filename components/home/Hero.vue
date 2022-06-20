@@ -78,10 +78,6 @@ onMounted(() => {
                     <h1 class="pt-[15vh] text-white text-center  absolute z-[1] ">En dan bedoelen <br> we echt overal.
                     </h1>
                 </div>
-                <div class="flex justify-center">
-                    <img class="w-[70rem] absolute top-[43vh] z-[2]" src="~/assets/images/elements/table.png"
-                        alt="man aan tafel">
-                </div>
 
                 <div class="navGradienBottom"></div>
             </section>

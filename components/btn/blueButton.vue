@@ -18,7 +18,7 @@ const props = defineProps({
     relative
     text-white
     font-bold
-    bg-black
+    bg-blue
     py-[15px]
     px-[40px]
     rounded-[1rem]
