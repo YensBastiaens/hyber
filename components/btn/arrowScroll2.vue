@@ -13,7 +13,7 @@ const props = defineProps({
       relative
        text-blue
       cursor-pointer
-      top-[26rem]
+      top-[18rem]
       left-[1%]
       flex
       justify-center

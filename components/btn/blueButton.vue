@@ -15,7 +15,6 @@ const props = defineProps({
 
 <template>
     <a class="
-    
     text-black
     font-bold
     bg-blue

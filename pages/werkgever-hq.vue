@@ -2,6 +2,7 @@
     <section>
         <WerkgeverhqHero />
         <WerkgeverhqSummary />
+        <WerkgeverhqBulletPoints />
     </section>
 </template>
 

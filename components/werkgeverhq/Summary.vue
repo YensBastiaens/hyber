@@ -8,7 +8,7 @@ function scroll() {
     <section class="backgroundGradient relative">
         <div class="gradientTop"></div>
         
-        <div class="container pb-[30rem]">
+        <div class="container pb-[60rem]">
             <div class="flex justify-center">
                 <div class="grid grid-cols-2 relative gap-[2.5rem]">
                     <div
@@ -33,7 +33,8 @@ function scroll() {
                             het grootste talent aan met een hybride job.</p>
                     </div>
                     <div
-                        class="background flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
+                        class="background relative flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
+                        <div class="fish2"></div>
                         <div class="flex gap-[1.5rem] items-center">
                             <img class="h-[1.8rem]" src="~/assets/images/logo/smallLogoIcon.png" alt="logo">
                             <div class="title text-white">Jij bent de baas</div>
@@ -41,6 +42,7 @@ function scroll() {
                         <p class="text-white max-w-[31rem] ml-[2.8rem] mt-[1rem]">Behoud volledige controle over het
                             reilen en zeilen van je organisatie. Hyber logt werk- en productiviteitsdata zodat jij je
                             kan bezighouden met planning en organisatie.</p>
+
                     </div>
                     <div
                         class="background flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem] z-[1]">
@@ -52,12 +54,10 @@ function scroll() {
                             vingerklik verwijderd. Zelf je agenda kunnen bepalen doet wonderen voor de productiviteit.
                             Suspendisse mattis</p>
                     </div>
-
                 </div>
-
             </div>
-            <div class="flex gap-[2.5rem] mt-[1rem] mb-[20rem]">
-                
+
+            <div class="flex gap-[2.5rem] mt-[6rem] mb-[20rem]">
                 <div class="w-[50%] flex justify-end">
                     <BtnBlueButton :text="'Demo aanvragen'" />
                 </div>
@@ -81,10 +81,18 @@ function scroll() {
     width: 23.5rem;
     height: 23.5rem;
     position: absolute;
-    top: -15rem;
+    top: -16rem;
     right: -8rem;
     z-index: 2;
-    
+}
+.fish2{
+    background: url(~/assets/images/elements/fish2.png);
+    width: 15.7rem;
+    height: 15.7rem;
+    position: absolute;
+    top: 35rem;
+    left: -14rem;
+    z-index: 2;
 }
 .gradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0) 0%, #06131A 51.3%, rgba(6, 19, 27, 0) 100%);
