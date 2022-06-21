@@ -1,8 +1,9 @@
 <script setup>
 
+
 </script>
 <template>
-    <section class="backgroundGradient relative pb-[100rem]">
+    <section class="backgroundGradient relative" id="answer">
         <div class="planets"></div>
         <div class="container relative py-[10rem]">
             <div class="flex justify-between items-center relative z-[3]">
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="bottomGradient"></div>
+
     </section>
 </template>
 

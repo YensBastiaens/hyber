@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div>
-                    <nav class="container flex flex-col text-white gap-[1rem] pt-[1rem] ">
+                    <nav class="container flex flex-col text-right text-white gap-[1rem] pt-[1rem] ">
                         <a href="#">Productiehal</a>
                         <a href="#">Receptie</a>
                         <a href="#">Werkgever HQ</a>

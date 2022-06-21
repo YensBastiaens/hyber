@@ -1,7 +1,21 @@
 <script setup>
+import { reactive } from 'vue';
+
 function scroll() {
     document.getElementById('answer')?.scrollIntoView({ behavior: 'smooth' })
 }
+
+const images = reactive({
+    fish: {
+        src1: '~/assets/images/elements/fish2.png', src2: '~/assets/images/elements/fish3.png'
+    },
+    penguin: {
+        src1: '~/assets/images/elements/penguin.png', src2: '~/assets/images/elements/penguin2.png'
+    },
+    owl: {
+        src1: '~/assets/images/elements/owl.png', src2: '~/assets/images/elements/owl2.png'
+    }
+})
 </script>
 
 <template>

@@ -3,6 +3,9 @@
         <WerkgeverhqHero />
         <WerkgeverhqSummary />
         <WerkgeverhqBulletPoints />
+        <WerkgeverhqGradientSection />
+        <WerkgeverhqPros />
+        <FooterExtension />
     </section>
 </template>
 

@@ -9,7 +9,7 @@
         <div class="container relative py-[18rem] pb-[25rem]">
              
             <div class="flex justify-between ">
-                <div class="">
+                <div>
                     <h3>Ik ben<br>een werkgever</h3>
                     <p class="max-w-[40.9rem] pt-[3.5rem]">Je workforce volledig remote laten werken mét behoud van
                         controle en efficiëntie? Het kan zomaar. Meer nog, Hyber helpt je operational excellence met
