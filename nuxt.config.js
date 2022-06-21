@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
     //HEAD
     head: {
-        title: 'STVV',
+        title: 'Hyber',
         htmlAttrs: {
             lang: 'nl'
         },

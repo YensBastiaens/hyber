@@ -16,12 +16,18 @@ const images = reactive({
         src1: '~/assets/images/elements/owl.png', src2: '~/assets/images/elements/owl2.png'
     }
 })
+
+function changeImage1() {
+    document.getElementById('fish1')
+}
+function changeImage2() {
+    document.getElementById('fish2')
+}
 </script>
 
 <template>
     <section class="backgroundGradient relative">
         <div class="gradientTop"></div>
-        
         <div class="container pb-[60rem]">
             <div class="flex justify-center">
                 <div class="grid grid-cols-2 relative gap-[2.5rem]">
@@ -37,7 +43,8 @@ const images = reactive({
                     </div>
                     <div
                         class="background relative flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
-                        <div class="fish1"></div>
+                        <img src="~/assets/images/elements/fish3.png" alt="fish" class="absolute top-[-16rem] right-[-16rem] z-[2]">
+                        <img src="src" id="fish1" alt="fish" class="absolute top-[-16rem] right-[-16rem] z-[2]">
                         <div class="flex gap-[1.5rem] items-center">
                             <img class="h-[1.8rem]" src="~/assets/images/logo/smallLogoIcon.png" alt="logo">
                             <div class="title text-white">Work/life war</div>
@@ -48,7 +55,7 @@ const images = reactive({
                     </div>
                     <div
                         class="background relative flex flex-col justify-center rounded-[1rem] max-h-[17rem] max-w-[42rem] py-[5rem] px-[2.5rem] pr-[6rem]">
-                        <div class="fish2"></div>
+                         <img src="~/assets/images/elements/fish2.png" alt="fish" class="absolute top-[35rem] left-[-14rem]">
                         <div class="flex gap-[1.5rem] items-center">
                             <img class="h-[1.8rem]" src="~/assets/images/logo/smallLogoIcon.png" alt="logo">
                             <div class="title text-white">Jij bent de baas</div>
@@ -90,24 +97,6 @@ const images = reactive({
 
 
 <style scoped>
-.fish1{
-    background: url(~/assets/images/elements/fish3.png);
-    width: 23.5rem;
-    height: 23.5rem;
-    position: absolute;
-    top: -16rem;
-    right: -8rem;
-    z-index: 2;
-}
-.fish2{
-    background: url(~/assets/images/elements/fish2.png);
-    width: 15.7rem;
-    height: 15.7rem;
-    position: absolute;
-    top: 35rem;
-    left: -14rem;
-    z-index: 2;
-}
 .gradientTop {
     background: linear-gradient(180deg, rgba(6, 19, 26, 0) 0%, #06131A 51.3%, rgba(6, 19, 27, 0) 100%);
     transform: matrix(-1, 0, 0, 1, 0, 0);

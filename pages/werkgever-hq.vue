@@ -5,7 +5,7 @@
         <WerkgeverhqBulletPoints />
         <WerkgeverhqGradientSection />
         <WerkgeverhqPros />
-        <FooterExtension />
+        <WerkgeverhqFooterExtension />
     </section>
 </template>
 
